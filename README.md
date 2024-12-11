@@ -41,13 +41,13 @@
   | ---------  | -------  | ----------  | -------  |
   |            |          |             |          | 
 
-  ***Sprint 3***
+  **Sprint 3**
   
   | Sébastien  |  Ismail  |  Balthazar  |  Fabien  |
   | ---------  | -------  | ----------  | -------  |
   |            |          |             |          |
 
-  ***Sprint 4***
+  **Sprint 4**
 
   | Sébastien  |  Ismail  |  Balthazar  |  Fabien  |
   | ---------  | -------  | ----------  | -------  |

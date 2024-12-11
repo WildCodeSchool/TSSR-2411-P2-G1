@@ -29,25 +29,25 @@
  
 ---
  # Rôles 
- **Sprint 1**:
+ ***_Sprint 1_***:
 
  |  Sébastien  |  Ismail  |  Balthazar  |  Fabien  |
  | ----------- | -------- | ----------- | -------- |
  | ProductOwner|   Dev    |    Dev      | Scrum    |
 
-  **Sprint 2**:
+  ***_Sprint 2_***:
 
   | Sébastien  |  Ismail  |  Balthazar  |  Fabien  |
   | ---------  | -------  | ----------  | -------  |
   |            |          |             |          | 
 
-  **Sprint 3**
+  ***_Sprint 3_***
   
   | Sébastien  |  Ismail  |  Balthazar  |  Fabien  |
   | ---------  | -------  | ----------  | -------  |
   |            |          |             |          |
 
-  **Sprint 4**
+  ***_Sprint 4_***
 
   | Sébastien  |  Ismail  |  Balthazar  |  Fabien  |
   | ---------  | -------  | ----------  | -------  |

@@ -1,5 +1,5 @@
 # TSSR-2411-P2-G1
-
+---
 # Objectif Principal
 
 .Depuis une machine Windows Server, on exécute un script PowerShell qui cible des ordinateurs Windows
@@ -7,11 +7,11 @@
 .Depuis une machine Debian, on exécute un script shell qui cible des ordinateurs Ubuntu
 
 
-
+---
 ## Objectif secondaire
 
 .Depuis un serveur, cibler une machine cliente avec un type d’OS différent
-
+---
 # Clients 
 
 1er: Client Windows 10
@@ -25,9 +25,31 @@
  Compte utilisateur : wilder (dans le groupe sudo)
  Mot de passe : Azerty1*
  Adresse IP fixe : 172.16.10.30/24
-
+ 
+---
  # Rôles 
+ **Sprint 1**:
 
- |  sébastien  |  Ismail  |  Balthazar  |  Fabien  |
+ |  Sébastien  |  Ismail  |  Balthazar  |  Fabien  |
  | ----------- | -------- | ----------- | -------- |
  | ProductOwner|   Dev    |    Dev      | Scrum    |
+
+  **Sprint 2**:
+
+  | Sébastien  |  Ismail  |  Balthazar  |  Fabien  |
+  | ---------  | -------  | ----------  | -------  |
+  |            |          |             |          | 
+
+  ***Sprint 3***
+  
+  | Sébastien  |  Ismail  |  Balthazar  |  Fabien  |
+  | ---------  | -------  | ----------  | -------  |
+  |            |          |             |          |
+
+  ***Sprint 4***
+
+  | Sébastien  |  Ismail  |  Balthazar  |  Fabien  |
+  | ---------  | -------  | ----------  | -------  |
+  |            |          |             |          |
+  
+  

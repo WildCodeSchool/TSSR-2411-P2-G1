@@ -39,7 +39,7 @@
 
   | Sébastien  |  Ismail  |  Balthazar  |  Fabien  |
   | ---------  | -------  | ----------  | -------  |
-  |            |          |             |          | 
+  | Scrum      |   Dev    |    Dev      | ProducO  | 
 
   ***_Sprint 3_***
   

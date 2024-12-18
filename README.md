@@ -55,6 +55,7 @@
 
   # Présentation projet
 Le projet consiste a pouvoir à travers un serveur, effectuer des tâches qui se ferons sur notre client.
+Pour se faire nous utilisons un script, qui est alimenter par des actions qui permette de prendre le controle, du client à distance. 
 
   
   

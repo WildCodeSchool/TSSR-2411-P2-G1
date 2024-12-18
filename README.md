@@ -54,7 +54,7 @@
   |            |          |             |          |
 
   # Présentation projet
-Le projet consiste à pouvoir à travers un serveur, effectuer des tâches qui s'effecturons sur notre client.
+Le projet consiste a pouvoir à travers un serveur, effectuer des tâches qui se ferons sur notre client.
 
   
   

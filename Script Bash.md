@@ -11,5 +11,4 @@
 
 ![Script3](https://github.com/user-attachments/assets/5c96d72d-e7a8-4756-8f98-032e020f2bc3)
 
-### Maintenant nous avons selectionnez Hôte, qui nous donne se délicieux menu, qui nous permet de consulter les différentes personnes ayant accées au client
-### entre autres.
+### Maintenant nous avons selectionnez Hôte, qui nous donne se délicieux menu, qui nous permet de consulter les différentes personnes ayant accées au client entre autres.

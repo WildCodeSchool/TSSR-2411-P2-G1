@@ -2,9 +2,9 @@
 ---
 # Objectif Principal  🥅
 
--  Depuis une machine Windows Server, on exécute un script PowerShell qui cible des ordinateurs Windows.
+-  Depuis Windows Server 2022, on exécute un script sous PowerShell 7.4 qui cible des ordinateurs Windows.
 
--  Depuis une machine Debian, on exécute un script shell qui cible des ordinateurs Ubuntu.
+-  Depuis un serveur Debian 12, on exécute un script shell qui cible des ordinateurs Ubuntu.
 
 ---
 ## Objectif secondaire  🎯
@@ -52,17 +52,9 @@
   | ---------  | -------  | ----------  | -------  |
   |            |          |             |          |
 
-  # Objectifs du projet
+ 
 
-**Objectif principal :**
-
-Depuis une machine Windows Server, on exécute un script PowerShell qui cible des ordinateurs Windows.
-Depuis une machine Debian, on exécute un script shell qui cible des ordinateurs Ubuntu.
-
-**Objectif secondaire :**
-
-Depuis un serveur, cibler une machine cliente avec un type d’OS différent.
-
+D
 
 
   

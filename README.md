@@ -6,6 +6,8 @@
 
 
 ---
+**PRESENTATION DU PROJET**
+
 # Objectif Principal  🥅
 
 -  Depuis Windows Server 2022, on exécute un script sous PowerShell 7.4 qui cible des ordinateurs Windows.
@@ -16,6 +18,10 @@
 ## Objectif secondaire  🎯
 
 -  Depuis un serveur, cibler une machine cliente avec un type d’OS différent
+
+---
+**Prérequis**
+
 
 ---
 # Clients 💻

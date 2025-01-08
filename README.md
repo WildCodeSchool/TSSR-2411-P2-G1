@@ -52,7 +52,7 @@
   | ---------  | -------  | ----------  | -------  |
   |            |          |             |          |
 
-  # Objectif du projet
+  # Objectifs du projet
 
 **Objectif principal :**
 

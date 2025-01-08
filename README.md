@@ -2,9 +2,9 @@
 ---
 # Objectif Principal  🥅
 
--  Depuis une machine Windows Server, on exécute un script PowerShell qui cible des ordinateurs Windows
+-  Depuis une machine Windows Server, on exécute un script PowerShell qui cible des ordinateurs Windows.
 
--  Depuis une machine Debian, on exécute un script shell qui cible des ordinateurs Ubuntu
+-  Depuis une machine Debian, on exécute un script shell qui cible des ordinateurs Ubuntu.
 
 
 ---
@@ -54,8 +54,12 @@
   |            |          |             |          |
 
   # Présentation projet
-Le projet consiste a pouvoir à travers un serveur, effectuer des tâches qui se ferons sur notre client.
-Pour se faire nous utilisons un script, qui est alimenter par des actions qui permette de prendre le controle, du client à distance. 
+Le projet consiste à pouvoir à partir d'un serveur d'éffectuer des tâches sur un client.
+Pour se faire nous utilisons 2 types de scripts permettant de prendre le controle du client à distance :
+
+Un script Bash (environnement Linux)
+Un script powershell (environnement Windows)
+
 
   
   

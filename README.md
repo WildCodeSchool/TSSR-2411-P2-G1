@@ -44,7 +44,7 @@
   
   | Sébastien  |  Ismail  |  Balthazar  |  Fabien  |
   | ---------  | -------  | ----------  | -------  |
-  |            |          |             |          |
+  |  Dev       | Scrum    | Product     |  Dev     |
 
   ***_Sprint 4_***
 

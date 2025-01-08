@@ -6,8 +6,6 @@
 
 -  Depuis une machine Debian, on exécute un script shell qui cible des ordinateurs Ubuntu.
 
-![montage sdb1 mnt data](https://github.com/user-attachments/assets/2ba70e1e-eff7-4af8-88d7-d7eda48ee5c4)
-
 ---
 ## Objectif secondaire  🎯
 

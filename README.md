@@ -52,12 +52,17 @@
   | ---------  | -------  | ----------  | -------  |
   |            |          |             |          |
 
-  # Présentation projet
-Le projet consiste à pouvoir à partir d'un serveur d'éffectuer des tâches sur un client.
-Pour se faire nous utilisons 2 types de scripts permettant de prendre le controle du client à distance :
+  # Objectif du projet
 
-Un script Bash (environnement Linux)
-Un script powershell (environnement Windows)
+**Objectif principal :**
+
+Depuis une machine Windows Server, on exécute un script PowerShell qui cible des ordinateurs Windows.
+Depuis une machine Debian, on exécute un script shell qui cible des ordinateurs Ubuntu.
+
+**Objectif secondaire :**
+
+Depuis un serveur, cibler une machine cliente avec un type d’OS différent.
+
 
 
   

@@ -1,4 +1,10 @@
 # TSSR-2411-P2-G1
+
+**Projet Script**
+
+![microsoft-windows-server-20225184](https://github.com/user-attachments/assets/698c57e3-defc-4a94-ba4b-7704d85334a9)
+![debian-12](https://github.com/user-attachments/assets/d3da12dc-0033-44f2-a9a8-91aed1ee819e)
+
 ---
 # Objectif Principal  🥅
 

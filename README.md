@@ -2,8 +2,8 @@
 
 **Projet Script**
 
-![microsoft-windows-server-20225184](https://github.com/user-attachments/assets/698c57e3-defc-4a94-ba4b-7704d85334a9)
-![debian-12](https://github.com/user-attachments/assets/d3da12dc-0033-44f2-a9a8-91aed1ee819e)
+ ![debian-12 small](https://github.com/user-attachments/assets/06d1e488-fcc1-4d70-9ba8-ea322695e98a)![microsoft-windows-server-20225184 small](https://github.com/user-attachments/assets/af86e8a1-de24-4946-b7fe-11f0b8386d58)
+
 
 ---
 # Objectif Principal  🥅

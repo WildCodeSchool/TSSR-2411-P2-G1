@@ -136,15 +136,19 @@ cela nous montre que si le service ssh est actif ou si l'on doit le rendre actif
 sudo systemctl start service ssh
 ou sudo systemctl enable ssh
 ```
-
+Ensuite une fois les paramêtres validés, nous allons généré une clé à partir de cette commande 
 
 ``` Bash
-AllowUsers <NomDelUtilisateur>
-PermitRootLogin Yes
+ssh-keygen -t rsa -b 4096 -c "votr adresse mail"
 ```
-\<NomDelUtilisateur> : correspond a l'utilisateur sur lequel vous souhaitez vous connecter
+Vous serez invité à choisir où enregistrer la clé. Par défaut, elle est enregistrée dans ~/.ssh/id_rsa.
 
-Il vous suffit de redemarrer votre VM et le tour est jouer !
+une fois la clé générer, vous pourrez vous connecter sur votre client
+
+``` bash
+ssh utilisateur@IP
+```
+A partir de là, vous pouvez faire toutes les manipulation que vous souhaitez sur votre client, depuis le serveur.
 
 ## Configuration de WinRM sur le client Windows 10
 

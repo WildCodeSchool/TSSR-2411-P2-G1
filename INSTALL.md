@@ -103,25 +103,6 @@ Saisir le nom de la machine et redémarrez pour vérifier que le changement est 
 
 ![renommer PC](https://github.com/user-attachments/assets/e714e605-cccc-43cb-8359-7713819c3d05)
 
- 
-
-Nous allons aussi modifier le fichier hosts qui est sous C:\Windows\System32\drivers\etc : 
-
-- Pour le serveur, ajouter (avec le compte Administrator) :  
-```
-127.0.0.1 localhost  
-192.168.1.20 srvlin 
-192.168.1.100 cliwin
-192.168.1.200 clilin
-```
-  
-- Pour le client, ajouter (avec le compte Administrateur) :  
-```
-127.0.0.1 localhost  
-192.168.1.20 srvlin  
-192.168.1.10 srvwin  
-192.168.1.200 clilin
-```
 
 **Pour les machines Linux :**
 
@@ -130,30 +111,6 @@ Nous allons éditer le ficher /etc/hostname et changer le nom du PC :
 nano /etc/hostname
 ```
 
-Nous allons aussi modifier le fichier /etc/hosts : 
-
-- Pour le serveur, ajouter (en root) :
-```
-127.0.0.1 localhost
-127.0.1.1 srvlin
-192.168.1.10 srvwin
-192.168.1.100 cliwin
-192.168.1.200 clilin
-```
-
-  
-- Pour le client, ajouter (en éditant avec un sudo) :
-```
-127.0.0.1 localhost
-127.0.1.1 clilin
-192.168.1.200 clilin
-192.168.1.20 srvlin
-192.168.1.10 srvwin
-192.168.1.100 cliwin
-```
-
-
-L'ensemble de nos noms de machines est maintenant modifié.   
 
 ## Installation et configuration du ssh sur le client Ubuntu
 

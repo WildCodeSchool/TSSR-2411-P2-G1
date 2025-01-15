@@ -161,11 +161,21 @@ Nous allons commencer par installer OpenSSH si vous ne l'avez pas fait avec la c
 
 ``` bash
 sudo apt update && sudo apt install
-sudo apt install open-ssh-serveur
+sudo apt install openssh-serveur
 ```
 
-Une fois les paquets récupérer et installée nous allons modifié le fichier de configuration afin de pouvoir effectuer la connection en ssh  
-Pour cela il suffit de vous rendre dans le fichier "**/etc/ssh/sshd_config**", décommenter la ligne "**Port 22**" et saisir les deux lignes suivante
+Une fois l'installation achevée, il est recommander de regarder si le service est actif
+
+``` bash
+sudo systemctl status ssh
+```
+cela nous montre que si le service ssh est actif ou si l'on doit le rendre actif.
+
+``` bash
+sudo systemctl start service ssh
+ou sudo systemctl enable ssh
+```
+
 
 ``` Bash
 AllowUsers <NomDelUtilisateur>

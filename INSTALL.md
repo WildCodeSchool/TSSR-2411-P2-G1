@@ -93,13 +93,17 @@ Les machines doivent avoir les noms suivants :
 - Debian : SRVLIN01  
 - Ubuntu : CLILIN01
 - Windows Server : SRVWIN01 
-- Windows 10: CLIWIN
+- Windows 10: CLIWIN01
 
 **Pour les machines Windows :**
 
-Nous allons chercher *nom* dans le menu démarrer.   
-Nous cliquons sur **Afficher le nom de votre PC** et nous le modifions.   
-Nous redémarrons la machine.   
+Tapez *nom* dans le menu démarrer / afficher le nom de votre PC / Renommer ce PC :
+
+Saisir le nom de la machine et redémarrez pour vérifier que le changement est effectif, on peut voir ci-dessous que le nom a été mis à jour :
+
+![renommer PC](https://github.com/user-attachments/assets/e714e605-cccc-43cb-8359-7713819c3d05)
+
+ 
 
 Nous allons aussi modifier le fichier hosts qui est sous C:\Windows\System32\drivers\etc : 
 
@@ -176,7 +180,7 @@ Il vous suffit de redemarrer votre VM et le tour est jouer !
 Pour commencer, on ouvre le menu démarrer, et on clique sur le petit rouage pour ouvrir les paramètres de votre machine  
 On selectionne Système puis Bureau à distance sur le menu de gauche   
 On active le bureau à distance  
-![img](https://github.com/ThomasDominici/TSSR-Projet-Groupe_2-TheScriptingProject/blob/Thomas/Ressources/Capture%20d'%C3%A9cran%202023-10-31%20103701.png?raw=true)
+
 
 Ensuite ouvrez votre CLI "**invite de commandes**" en tant qu'administrateur     
 Et entrez la ligne de commande suivante :  
@@ -196,7 +200,7 @@ On va activer le service WinRm avec la commande suivante :
 ``` PowerShell
 Enable-PSRemoting
 ```
-![img](https://github.com/ThomasDominici/TSSR-Projet-Groupe_2-TheScriptingProject/blob/Thomas/Ressources/Capture%20d'%C3%A9cran%202023-10-31%20110453.png?raw=true)
+
 
 Le message d'erreur n'est pas a prendre en compte, le plus important et que vous voyez le message :
 "Le service WinRM a été démarré"

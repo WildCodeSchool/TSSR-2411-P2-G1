@@ -1,51 +1,50 @@
-# Guide d'installation :
+# User Guide :
 
-## Besoins initiaux : besoins du projet
+Pour ce projet, nous devons configurer les adresses IP suivantes sur les machines : 
 
-Pour ce projet, vous aurez besoin de quatre machines mises en réseaux. Pour l'exemple, nous prendrons les adresses IP suivantes : 
-
-| **Machines**   | **Adresses IP** |
-|----------------|-----------------|
-| Win Sever 2022 | 192.168.1.10    |
-| Debian 12      | 192.168.1.20    |
-| Win 10         | 192.168.1.100   |
-| Ubuntu 22.04   | 192.168.1.200   |
-
-Nous allons ici détailler les différentes étapes d'installation pour pouvoir utiliser deux scripts (un Bash et un Powershell) d'un ordinateur serveur vers un ordinateur client.
-Nous allons utiliser une serveur Windows server 2022 à destination d'un client Windows 10. De même nous utiliserons un serveur Debian à destination d'un client Ubuntu.
+| **Machines**        | **Adresses IP** |
+|---------------------|-----------------|
+| Win Server 2022     | 172.16.10.5     |
+| Debian 12           | 172.16.10.10    |
+| Win 10              | 172.16.10.20    |
+| Ubuntu 22.04/24.04  | 172.16.10.30    |
 
 
-## Étapes d'installation et de configuration : instruction étape par étape
+## Étapes d'installation et de configuration
 
-Nous utiliserons ici des VM sur VirtualBox.
+Nous utiliserons ici des VM sur Proxmox.
 
-### Prérequis VM
-
-Toutes nos machines ont été configurées avec 2 processeurs et 4 gigas de RAM mais il est possible de diminuer notamment pour Debian à un processeur et 2 gigas de RAM.  
+### Configuration des VM
 
 ### Mise en reseau 
 
-Pour la mise en réseau, il faut tout d'abord aller dans l'onglet réseau de virtualbox sur la machine et sélectionner **Réseau Interne**.
+les cartes réseau pour le serveur Debian et la machine Ubuntu ont été configurées en bridge sur le pont vmbrg1.
 
-![image1](https://github.com/ThomasDominici/TSSR-Projet-Groupe_2-TheScriptingProject/blob/Thomas/Ressources/1_r%C3%A9seau_interne.JPG?raw=true)  
+les cartes réseau pour le serveur et la machine Windows ont été configurées en bridge sur le pont vmbr4.
 
-Pour pouvoir communiquer entre eux, nos machines doivent avoir des adresses IP faisant partie du même réseau. Nous utilisons ici les adresses 192.168.1.X/24.
-Nous allons ensuite mettre en place des adresses IP fixes manuellement grâces aux étapes ci-dessous : 
+Pour pouvoir communiquer entre elles, nos machines doivent avoir des adresses IP faisant partie du même réseau 172.16.10.XX/24.
+
+Ensuite, il faut configurer les adresses IP fixes manuellement : 
 
 **Pour les ordinateurs Windows :**
 
-On clique droit sur l'onglet **réseau**en bas à droite de l'écran et on va dans **Ouvrir les paramètres réseaux et internet**.    
-On sélectionne ensuite l'onglet Ethernet et on clique sur **Modifier les options d'adaptateur**  
+Clique droit sur l'icone **réseau**en bas à droite de l'écran puis**Ouvrir les paramètres réseaux et internet**.    
+On sélectionne le menu Ethernet à gauche et on clique sur **Modifier les options d'adaptateur**  
 
-![image2](https://github.com/ThomasDominici/TSSR-Projet-Groupe_2-TheScriptingProject/blob/Thomas/Ressources/2_ethernet.JPG?raw=true)  
+Double-cliquer sur la connexion ethernet / propriétés / Protocole Internet version 4 (TCP/IP)
 
-On rejoint ensuite les propriétés de l'Ethernet comme le montre l'image ci-dessous : 
+Cocher "utiliser l'adresse ip suivante" et renseigner les adresses IP correspondantes aux 2 machines 
 
-![image3](https://github.com/ThomasDominici/TSSR-Projet-Groupe_2-TheScriptingProject/blob/Thomas/Ressources/3_propri%C3%A9t%C3%A9s_ethernet.JPG?raw=true)  
+| **Machines**        | **Adresses IP** |
+|---------------------|-----------------|
+| Windows Server 2022 | 172.16.10.5     |
+| Windows 10          | 172.16.10.20    |
 
-Dans ces propriété, un double clique sur les **propriétés IPv4** nous permet de passer l'adressage en manuel et de renseigner l'adresse IP et le masque de sous-réseau désirés.  
+Le masque de sous réseau a renseigné est : **255.255.255.0** car les adresses IP sont en /24.
 
-![image4](https://github.com/ThomasDominici/TSSR-Projet-Groupe_2-TheScriptingProject/blob/Thomas/Ressources/4_ipv4.JPG?raw=true)  
+
+
+
 
 Notre adresse IP est bien configurée après un redémarrage de la machine.
 On peut vérifier l'adresse IP avec la commande suivante :

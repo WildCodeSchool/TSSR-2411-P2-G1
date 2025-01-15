@@ -116,7 +116,7 @@ Dans la fenetre qui s'ouvre à l'écran, remplacer le nom de la machine par le n
 Faire ctrl + x pour sortir et répondre "yes" pour sauvegarder. 
 
 
-## Installation et configuration du ssh sur le client Ubuntu
+## Installation et configuration du ssh sur les serveur Linux
 
 Nous allons commencer par installer OpenSSH si vous ne l'avez pas fait avec la commande
 

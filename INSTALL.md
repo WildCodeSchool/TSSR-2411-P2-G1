@@ -106,10 +106,14 @@ Saisir le nom de la machine et redémarrez pour vérifier que le changement est 
 
 **Pour les machines Linux :**
 
-Nous allons éditer le ficher /etc/hostname et changer le nom du PC : 
+Ouvrir le terminal et éditer le ficher /etc/hostname :
+
 ```Bash
-nano /etc/hostname
+sudo nano /etc/hostname
 ```
+Dans la fenetre qui s'ouvre à l'écran, remplacer le nom de la machine par le nom imposé par le projet.
+
+Faire ctrl + x pour sortir et répondre "yes" pour sauvegarder. 
 
 
 ## Installation et configuration du ssh sur le client Ubuntu

@@ -1,4 +1,4 @@
-# User Guide :
+# Guide de paramétrages des machines :
 
 Pour ce projet, nous devons configurer les adresses IP suivantes sur les machines : 
 
@@ -26,7 +26,7 @@ Pour pouvoir communiquer entre elles, nos machines doivent avoir des adresses IP
 
 Ensuite, il faut configurer les adresses IP fixes manuellement : 
 
-**Pour les ordinateurs Windows :**
+**Pour les machines Windows :**
 
 Clique droit sur l'icone **réseau**en bas à droite de l'écran puis**Ouvrir les paramètres réseaux et internet**.    
 On sélectionne le menu Ethernet à gauche et on clique sur **Modifier les options d'adaptateur**  
@@ -42,79 +42,58 @@ Cocher "utiliser l'adresse ip suivante" et renseigner les adresses IP correspond
 
 Le masque de sous réseau a renseigné est : **255.255.255.0** car les adresses IP sont en /24.
 
+Cliquer sur OK pour quitter. Les nouvelles adresses ont bien été modifiées
 
+On peut vérifier ces adresses IP avec la commande suivante dans Powershell :
 
-
-
-Notre adresse IP est bien configurée après un redémarrage de la machine.
-On peut vérifier l'adresse IP avec la commande suivante :
 ```PowerShell
 ipconfig
 ```
 
   
-**Pour l'ordinateur Ubuntu :**  
+**Pour la machine Ubuntu :**  
 
-On clique sur l'onglet en haut à droite de l'écran et on sélectionne **Paramètres**.  
-Dans l'onglet **Réseau**, on clique sur le petit engrenage à droite au niveau de **Ethetnet (enp0s3)**.    
+En interface graphique :
 
+Cliquer sur l'icone réseau en haut à droite de l'écran et on sélectionne wired (filaire en français) / wired settings (paramètres filaires)
 
-![image5](https://github.com/ThomasDominici/TSSR-Projet-Groupe_2-TheScriptingProject/assets/144700255/12ad7d26-c6ed-48e7-acf9-eccdd468dcfd)   
+Cliquer sur le petite engrenage du pavé "wired" puis IPv4 / manual 
 
+sur la ligne adresses, renseigner l'adresse IP 172.16.10.30 et le masque de sous-réseau 255.255.255.0 puis valider en cliquant sur apply. 
+ 
+En ouvrant un terminal, on peut vérifier que l'adresse IP a été modifiée avec la commande suivante :
 
-On va ensuite dans IPv4 et on renseigne l'adresse IP et le masque de sous-réseau voulus.   
-
-![image6](https://github.com/ThomasDominici/TSSR-Projet-Groupe_2-TheScriptingProject/blob/Thomas/Ressources/6_ipv4ubuntu.JPG?raw=true)  
-
-Notre adresse IP est bien configurée après un redémarrage de la machine.  
-On peut vérifier l'adresse IP avec la commande suivante :
 ```Bash
 ip a
 ```
 
 
   
-**Pour l'ordinateur Debian :**  
+**Pour la machine Debian :**  
 
+En interface graphique :
 
-En **root**, nous allons éditer le ficher */etc/network/interfaces* :
+Cliquer sur l'icone réseau en haut à droite de l'écran et on sélectionne wired (filaire en français) / wired settings (paramètres filaires)
+
+Cliquer sur le petite engrenage du pavé "wired" puis IPv4 / manual 
+
+sur la ligne adresses, renseigner l'adresse IP 172.16.10.10 et le masque de sous-réseau 255.255.255.0 puis valider en cliquant sur apply. 
+ 
+En ouvrant un terminal, on peut vérifier que l'adresse IP a été modifiée avec la commande suivante :
+
 ```Bash
-nano /etc/network/interfaces
-
-# The loopback network interface
-auto lo
-iface lo inet loopback
-
-# The primary network interface - vbox
-allow-hotplug enp0s3
-iface enp0s3 inet static
-        addresse 192.168.1.20
-        netmask 255.255.255.0
-
-# NAT interface si on a rajouté un second adapter
-auto enp0s8
-iface enp0s8 inet dhcp
-```
-Etant sur une VM notre interfaces s'appelle "**enp0s3**", penser à verifié le nom de votre interface réseau avec la commande "**ip a**"
-
-Un fois édité comme ci-dessus, on peut redémarrer le système réseau et vérifier notre adresse IP.
-```Bash
-systemctl restart networking
-
 ip a
 ```
 
 
-Toutes nos machines sont maintenant en réseau, nous pouvons passer à la suite.
-
-
 ### Renommer les machines : 
 
-Pour ce projet, nous allons donner les noms suivants aux machines : 
-- Debian : srvlin  
-- Ubuntu : clilin  
-- Windows Server : srvwin  
-- Windows 10: cliwin
+Les machines doivent avoir les noms suivants :
+
+- Debian : SRVLIN01  
+- Ubuntu : CLILIN01
+- Windows Server : SRVWIN01 
+- Windows 10: CLIWIN
 
 **Pour les machines Windows :**
 

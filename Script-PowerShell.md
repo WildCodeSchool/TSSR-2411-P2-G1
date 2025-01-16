@@ -28,8 +28,10 @@ A travers ce menu, nous pouvons:
     
 ![C5](https://github.com/user-attachments/assets/52eba6c4-8c25-4dcc-a7ed-5c2c8709a450) |  ![c15](https://github.com/user-attachments/assets/dd7da380-875d-41ae-ab45-2d1a722f731a)
 |-------------------|-------------------|
+
 ![C5](https://github.com/user-attachments/assets/adc7eb79-17bc-48ff-b3ed-3e773b6b1a8d) |  ![C6](https://github.com/user-attachments/assets/11943a2e-ca2c-4414-85aa-830da0fe6d1e)
 |-------------------|-------------------|
+
 ![C7](https://github.com/user-attachments/assets/65867b65-8e6c-4b8c-9608-53e9545fa4a5)
 
 # ***Action logiciel***

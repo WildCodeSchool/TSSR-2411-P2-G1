@@ -2,11 +2,11 @@
 ![C2](https://github.com/user-attachments/assets/5d303306-05b4-4cb6-adee-ca18633cc110) | ![C1](https://github.com/user-attachments/assets/87f5a26e-d6db-47c2-85c2-01d08b4dcb6d)
 |-------------------|-------------------|
 
-# ***Ajout de bouton et création de formulaire Générique***
+# ***Ajout de boutons et création de formulaire Générique***
 ![C3](https://github.com/user-attachments/assets/3a304eb6-ec33-40b9-83cb-5fd2f433eb60)
 
 # ***Menu Principal***
-Dans ce menu, nous pouvons séléctionner les sous-menus qui existe!
+Dans ce menu, nous pouvons séléctionner les sous-menus qui existent!
   - Gérer les utilisateurs
   - Gérer les ordinateurs
   - Gérer les logiciels
@@ -24,7 +24,7 @@ A travers ce menu, nous pouvons:
   - Supprimer un utilisateur d'un groupe
   - Créer un groupe
   - Lister les groupes
-  - Supprimer groupes
+  - Supprimer des groupes
     
 ![C5](https://github.com/user-attachments/assets/52eba6c4-8c25-4dcc-a7ed-5c2c8709a450) |  ![c15](https://github.com/user-attachments/assets/dd7da380-875d-41ae-ab45-2d1a722f731a)
 |-------------------|-------------------|
@@ -35,7 +35,7 @@ A travers ce menu, nous pouvons:
 ![C7](https://github.com/user-attachments/assets/65867b65-8e6c-4b8c-9608-53e9545fa4a5)
 
 # ***Action logiciel***
-Maintenant avec ce menu, nous pouvons faire les action suivante:
+Maintenant avec ce menu, nous pouvons faire les actions suivantes :
   - Lister les logiciels installés
   - Installer un logiciel
   - Désinstaller un logiciel
@@ -46,7 +46,7 @@ Maintenant avec ce menu, nous pouvons faire les action suivante:
 ![C10](https://github.com/user-attachments/assets/01719ec9-0c6a-4900-8315-6095ecabeca5)
 
 # ***Action audit***
-Ce menu nous donnes les actions suivante:
+Ce menu nous donne les actions suivantes:
   - Scanner les ports ouverts
   - Vérifier l'espace disque
   - Vérifier les services en cours d'execution

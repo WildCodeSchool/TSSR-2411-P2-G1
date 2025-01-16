@@ -28,7 +28,7 @@ Ensuite, il faut configurer les adresses IP fixes manuellement :
 
 **Pour les machines Windows :**
 
-Clique droit sur l'icone **réseau**en bas à droite de l'écran puis**Ouvrir les paramètres réseaux et internet**.    
+Clique droit sur l'icone **réseau** en bas à droite de l'écran puis **Ouvrir les paramètres réseaux et internet**.    
 On sélectionne le menu Ethernet à gauche et on clique sur **Modifier les options d'adaptateur**  
 
 Double-cliquer sur la connexion ethernet / propriétés / Protocole Internet version 4 (TCP/IP)
@@ -43,6 +43,8 @@ Cocher "utiliser l'adresse ip suivante" et renseigner les adresses IP correspond
 Le masque de sous réseau a renseigné est : **255.255.255.0** car les adresses IP sont en /24.
 
 Cliquer sur OK pour quitter. Les nouvelles adresses ont bien été modifiées
+
+![affecter IP windows](https://github.com/user-attachments/assets/69ec3414-8805-4544-b9a6-b17ae706d0c9)
 
 On peut vérifier ces adresses IP avec la commande suivante dans Powershell :
 

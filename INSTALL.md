@@ -75,15 +75,13 @@ ip a
 
   
 **Pour la machine Debian :**  
-
-En interface graphique :
-
-Cliquer sur l'icone réseau en haut à droite de l'écran et on sélectionne wired (filaire en français) / wired settings (paramètres filaires)
-
-Cliquer sur le petite engrenage du pavé "wired" puis IPv4 / manual 
-
-sur la ligne adresses, renseigner l'adresse IP 172.16.10.10 et le masque de sous-réseau 255.255.255.0 puis valider en cliquant sur apply. 
  
+ Ouvrir le terminal et saisir : nano /etc/network/interfaces
+
+ Modifier le fichier comme ci-dessous et sauvegarder les modifications.
+ 
+ ![AFFECTER ip DEBIAN](https://github.com/user-attachments/assets/c4747201-a1b4-4090-a7fd-1c1b9fc78cc0)
+
 En ouvrant un terminal, on peut vérifier que l'adresse IP a été modifiée avec la commande suivante :
 
 ```Bash
@@ -120,6 +118,7 @@ Dans la fenetre qui s'ouvre à l'écran, remplacer le nom de la machine par le n
 
 Faire ctrl + x pour sortir et répondre "yes" pour sauvegarder. 
 
+![AFFECTER NOM DEBIAN](https://github.com/user-attachments/assets/088d601d-c9c9-4acd-8b49-9abfd923386b)
 
 ## Installation et configuration du ssh sur les machines Linux
 

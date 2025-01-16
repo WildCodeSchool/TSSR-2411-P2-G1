@@ -62,6 +62,9 @@ Cliquer sur l'icone réseau en haut à droite de l'écran et on sélectionne wir
 Cliquer sur le petite engrenage du pavé "wired" puis IPv4 / manual 
 
 sur la ligne adresses, renseigner l'adresse IP 172.16.10.30 et le masque de sous-réseau 255.255.255.0 puis valider en cliquant sur apply. 
+
+![affecter IP ubuntu](https://github.com/user-attachments/assets/acb1a62a-e873-417a-a027-40feffa04361)
+
  
 En ouvrant un terminal, on peut vérifier que l'adresse IP a été modifiée avec la commande suivante :
 

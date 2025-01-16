@@ -156,8 +156,8 @@ A partir de là, vous pouvez faire toutes les manipulation que vous souhaitez su
 
 ## Configuration de WinRM sur le client Windows 10
 
-Pour commencer, on ouvre le menu démarrer, et on clique sur le petit rouage pour ouvrir les paramètres de votre machine  
-On selectionne Système puis Bureau à distance sur le menu de gauche   
+Pour commencer, on ouvre le menu démarrer, et on clique sur le petit rouage pour ouvrir les paramètres de la machine  
+On sélectionne Système puis Bureau à distance sur le menu de gauche   
 On active le bureau à distance  
 
 
@@ -171,7 +171,7 @@ On redemarre notre VM
 
 Enfin ouvrez votre CLI "**PowerShell**" en tant qu'administrateur
 
-On va ajouter TOUTE les machines dans notre Trusted host avec la commande suivante :   
+On va ajouter TOUTES les machines dans notre Trusted host avec la commande suivante :   
 Set-Item WSMan:\localhost\Client\TrustedHosts -Value *
 
 On va activer le service WinRm avec la commande suivante :

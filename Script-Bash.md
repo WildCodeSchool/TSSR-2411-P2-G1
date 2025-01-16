@@ -20,7 +20,6 @@ Ce menu affiche, toute les actions possible sur le menu Utilisateur
 |--------------------|--------------------|
 
 ![bash6](https://github.com/user-attachments/assets/80630ac2-1db5-4652-8394-297365a4d63c)
-|--------------------|--------------------|
 
 # ***3. Présentation menu Hôte:***
 Ce menu affiche les options possible sur le menu Hôte
@@ -35,7 +34,6 @@ Ce menu affiche les options possible sur le menu Hôte
 |--------------------|--------------------|
 
 ![bash8](https://github.com/user-attachments/assets/6551e73e-88bc-4a6b-b581-805c9e144c00)
-|--------------------|--------------------|
 
 # ***4. Option fermeture***
 Cette option vous permet d'éteindre votre machine

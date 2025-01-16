@@ -74,8 +74,8 @@ Activation de la connexion à distance sous Windows
 ---
 # ** Solutions trouvées
 
+Connexion SSH réussi au client Windows 10
 
- 
 ---
 # **Suggestions d'améliorations possibles**
  

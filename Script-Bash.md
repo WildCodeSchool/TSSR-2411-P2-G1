@@ -7,7 +7,7 @@ Dans ce menu, vous pouvez séléctionner
 |--------------------|--------------------|
 
 # ***2. Présentation menu Utilisateur:***
-Ce menu affiche, toute les actions possible sur le menu Utilisateur
+Ce menu affiche, toutes les actions possibles sur le menu Utilisateur
   - Afficher les utilisateurs connectés
   - Ajouter un utilisateur
   - Supprimer un utilisateur
@@ -22,7 +22,7 @@ Ce menu affiche, toute les actions possible sur le menu Utilisateur
 ![bash6](https://github.com/user-attachments/assets/80630ac2-1db5-4652-8394-297365a4d63c)
 
 # ***3. Présentation menu Hôte:***
-Ce menu affiche les options possible sur le menu Hôte
+Ce menu affiche les options possibles sur le menu Hôte
   - Afficher l'adresse IP
   - Afficher le nom d'hôte
   - Redémarrer le réseau
@@ -36,7 +36,7 @@ Ce menu affiche les options possible sur le menu Hôte
 ![bash8](https://github.com/user-attachments/assets/6551e73e-88bc-4a6b-b581-805c9e144c00)
 
 # ***4. Option fermeture***
-Cette option vous permet d'éteindre votre machine
+Cette option vous permet d'éteindre la machine
 
 ![bash4](https://github.com/user-attachments/assets/e796afc5-09de-4cd5-916a-784453fb6a66)
 

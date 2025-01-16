@@ -70,6 +70,7 @@ Ce menu, nous permet de pouvoir:
   - Arrêter l'ordinateur
   - Redémarrer l'ordinateur
   - Mettre en veille l'ordinateur
+
 ![C8](https://github.com/user-attachments/assets/d3310624-5fc1-493b-934d-07026e25af4d) | ![c16](https://github.com/user-attachments/assets/9606a0b6-b2bf-471d-aa8a-ae49e9ce6e13)
 
 

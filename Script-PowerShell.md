@@ -37,6 +37,7 @@ A travers ce menu, nous pouvons:
   - Lister les dossisers
   - Créer un dossier
   - Supprimer un dossier
+
 Dans l'exemple ci-dessous vous pouvez vous voir que la commande $textbox permet d'afficher un Prompt, sous les différents bouttons que compose ce sous-menu.
    
 ![c19 gestion G](https://github.com/user-attachments/assets/24359478-d330-4846-90c2-1dff1d5c6d50)  |  ![c20 verification](https://github.com/user-attachments/assets/a219da42-124c-4179-bd9c-ef8fbd9a0eeb)

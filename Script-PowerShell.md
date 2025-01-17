@@ -2,6 +2,9 @@
 ![C2](https://github.com/user-attachments/assets/5d303306-05b4-4cb6-adee-ca18633cc110) | ![C1](https://github.com/user-attachments/assets/87f5a26e-d6db-47c2-85c2-01d08b4dcb6d)
 |-------------------|-------------------|
 
+![Captur](https://github.com/user-attachments/assets/c8433f8a-1ebb-41bd-8917-09de696b0e44)
+
+
 # ***Ajout de boutons et création de formulaire Générique***
 ![C3](https://github.com/user-attachments/assets/3a304eb6-ec33-40b9-83cb-5fd2f433eb60)
 

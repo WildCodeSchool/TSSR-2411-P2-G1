@@ -49,7 +49,7 @@ Dans l'exemple ci-dessous vous pouvez vous voir que la commande $textbox permet 
 |-------------------|-------------------|
 
 ![c11 uti](https://github.com/user-attachments/assets/feef7662-cfb2-4dff-a065-9501ead60f42) | ![c12 uti](https://github.com/user-attachments/assets/cba6e2df-7861-4dd0-928f-c3283cf5a1a9)
-
+|-------------------|-------------------|
 
 # ***Gestion systéme***
 Maintenant avec ce menu, nous pouvons faire les actions suivantes :
